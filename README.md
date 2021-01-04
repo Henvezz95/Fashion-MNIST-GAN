@@ -6,4 +6,4 @@ The generator learns to create 28x28 images of clothes and shoes similar to the 
 
 A saved generator model can be tested using the script `test_generator.py`. It will output a matrix of mxn results obtained feeding the generator network with mxn random vectors obtained from a normal distribution.
 
-![Examples][./example.png]
+![Examples][https://github.com/Henvezz95/Fashion-MNIST-GAN/blob/main/example.png]
