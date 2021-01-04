@@ -1,15 +1,12 @@
 import tensorflow as tf
 import numpy as np
 from numpy.random import randn
-from numpy.random import randint
-from tensorflow.keras.datasets.fashion_mnist import load_data
 from matplotlib import pyplot
 from tensorflow.keras.optimizers import Adam, SGD
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, Conv2DTranspose, Dense, MaxPooling2D, Flatten
 from tensorflow.keras.layers import Reshape
 from tensorflow.keras.layers import LeakyReLU
-from tensorflow.keras.layers import Dropout
 from tensorflow.keras.models import load_model
 
 # generate points in latent space as input for the generator
